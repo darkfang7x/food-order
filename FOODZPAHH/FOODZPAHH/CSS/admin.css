@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0% auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 45%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+h1{
+    text-align: center;
+}
+
+/* CSS for button */
+
+.btn-primary{
+    background-color: #00cec9;
+    padding: 1%;
+    color: #1e272e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #3c40c6;
+    color: #ffd32a;
+}
+
+.btn-secondary{
+    background-color: #A3CB38;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #009432;
+}
+
+.btn-danger{
+    background-color: #e84118;
+    padding: 1%;
+    color: #dcdde1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #c23616;
+}
+
+.success{
+    text-align: center;
+    font-weight: bolder;
+    color: #44bd32;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #fffa65;
+}
+
+.error{
+    text-align: center;
+    font-weight: bolder;
+    color: #c23616;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #fffa65;
+}
+/* CSS for menu */
+
+.menu{
+    text-align: center;
+    background-color: #1B1464;
+    border-bottom: 2px solid black;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff200;
+}
+
+.menu ul li a:hover{
+    color: #ffcccc;
+}
+
+.top{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #fffa65;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #1B1464;
+}
+
+/* CSS for main content */
+
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: #fdfdfb;
+    border: 1px solid black;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+
+/* CSS for footer */
+
+.footer{
+    background-color: #1B1464;
+    color: #fff200;
+}
+
+
+.tbl-order{
+    width: 90%;
+    margin-left: 20%;
+}

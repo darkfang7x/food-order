@@ -1,0 +1,37 @@
+body {
+    background: url("../images/user-login-bg.png");
+    background-repeat: no-repeat;
+    background-size: 1550px 768px;
+  }
+
+.main-content{
+    background-color: #44bd32;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 35%;
+    text-align: center;
+    border-radius: 25%;
+    height: 300px;
+    padding: 2%;
+}
+
+.wrapper{
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 22%;
+}
+
+.btn-secondary{
+    margin: 2%;
+    background-color: #c7ecee;
+    color: #1e272e;
+}
+
+.para{
+    text-align: left;
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
